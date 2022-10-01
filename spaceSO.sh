@@ -5,3 +5,4 @@ CWD=$(pwd)
 FECHA=$(date +"%F%T")
 echo $FECHA
 
+df -h
