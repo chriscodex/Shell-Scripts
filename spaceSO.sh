@@ -5,4 +5,4 @@ CWD=$(pwd)
 FECHA=$(date +"%F%T")
 echo $FECHA
 
-df -h
+df -h | grep /dev
