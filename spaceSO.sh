@@ -6,4 +6,4 @@ FECHA=$(date +"%F%T")
 echo $FECHA
 
 df -h | grep /dev > uso_disco_"$FECHA".txt
-df -h |
+df -h | grep /dev/sda2 
