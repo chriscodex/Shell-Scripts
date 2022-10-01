@@ -5,4 +5,4 @@ CWD=$(pwd)
 FECHA=$(date +"%F%T")
 echo $FECHA
 
-df -h | grep /dev
+df -h | grep /dev > uso_disco_"$FECHA".txt
