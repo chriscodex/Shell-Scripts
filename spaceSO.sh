@@ -7,3 +7,5 @@ echo $FECHA
 
 df -h | grep /dev > uso_disco_"$FECHA".txt
 df -h | grep /dev/sda2 >> uso_disco_"$FECHA".txt
+
+echo "file generated in $CWD"
